@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'aramk:collection-table',
+  name: 'ecarlotti:collection-table',
   version: '0.5.0',
   summary: 'A CRUD table template for displaying collection items in Meteor.',
-  git: 'https://github.com/aramk/meteor-collection-table.git'
+  git: 'https://github.com/ecarlotti/meteor-collection-table.git'
 });
 
 Package.on_use(function(api) {

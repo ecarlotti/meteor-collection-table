@@ -230,10 +230,10 @@ onTableRender = ->
       defaultHandler()
 
   deleteItem = ->
-    if confirm('Delete item?')
-      if settings.onDelete
-        settings.onDelete createHandlerContext()
-      else
+    if settings.onDelete
+      settings.onDelete createHandlerContext()
+    else
+      if confirm('Delete item?')
         _.each getSelectedIds(domNode), (id) -> collection.remove id
 
   @$('.ui.filter.input .input-group-addon').replaceWith('<i class="filter icon"></i>')
