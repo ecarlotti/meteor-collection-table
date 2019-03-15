@@ -4,11 +4,9 @@ A CRUD table template for displaying collection items in Meteor. Extends [aslagl
 
 [Demo App](https://github.com/aramk/meteor-sandbox).
 
-```
-This fork was made to fix the inconsistent behaviour I found when using the onDelete callback. For all other callbacks, if set the callback is executed INSTEAD of the original code. For onDelete, the calback is called only AFTER displaying a confirmation alert to the end user and that breaks the application design.
+	This fork was made to fix the inconsistent behaviour I found when using the onDelete callback. For all other callbacks, if set the callback is executed INSTEAD of the original code. For onDelete, the calback is called only AFTER displaying a confirmation alert to the end user and that breaks the application design.
 
-I tried asking for this to be fixed in the original project, but it seems the code is not being maintained anymore :-(
-```
+	I tried asking for this to be fixed in the original project, but it seems the code is not being maintained anymore :-(
 
 ## Features
 
